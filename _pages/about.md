@@ -7,9 +7,9 @@ subtitle: Overview
 profile:
   align: right
   image: logo_ChL_dark.png
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
-    <p>Chorosteckilab at gmail.com</p>
+    <p>Chorosteckilab[at]gmail.com</p>
     <p>Barcelona, Spain</p>
 
 news: false  # includes a list of news items
