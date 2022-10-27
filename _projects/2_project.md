@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Non-coding RNAs evolution
+description: Understanding the evolution of non-coding RNAs from different species.
+img: assets/img/UC01.png
 importance: 2
 category: ongoing
 ---

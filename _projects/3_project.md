@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Non-coding RNAs in Cancer
+description: Integrating multi-omics approaches for therapeutic targeting of non-coding RNAs in Cancer.
+img: assets/img/UC01.png
 importance: 3
 category: ongoing
 ---

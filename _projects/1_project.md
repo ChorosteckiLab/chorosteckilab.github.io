@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: RNA structure dynamics
+title: RNA structure dynamics
+description: Investigating the relationship between RNA structure and function.
 img: assets/img/UC01.png
 importance: 1
 category: ongoing
