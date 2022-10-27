@@ -1,8 +1,8 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
-img: assets/img/01.png
+description: Relationship between RNA structure and function, considering the RNA structure dynamics
+img: assets/img/UC01.png
 importance: 1
 category: ongoing
 ---
@@ -17,7 +17,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: Relationship between RNA structure and function, considering the RNA structure dynamics.
-    img: /assets/img/01.png
+    img: /assets/img/UC01.png
     ---
 
 <div class="row">
