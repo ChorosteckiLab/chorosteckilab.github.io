@@ -20,6 +20,10 @@ social: true  # includes social icons at the bottom of the page
 The main aim of our lab is to understand RNA biology, by using computational strategies. By combining computational approaches, high-throughput structure probing techniques and molecular biology experiments, my lab is expected to create a wealth of original information by unravelling novel, unexpected functions for RNAs from different species.
 
 We are interested in: 
-Investigating the relationship between RNA structure and function, considering the RNA structure dynamics.
-Understanding the evolution of non-coding RNAs from different species.
-Integrating multi-omics approaches for therapeutic targeting of non-coding RNA in Cancer
+<ul>
+  <li>Investigating the relationship between RNA structure and function, considering the RNA structure dynamics.</li>
+  <li>Understanding the evolution of non-coding RNAs from different species.</li>
+  <li>Integrating multi-omics approaches for therapeutic targeting of non-coding RNA in Cancer.</li>
+</ul>
+
+
