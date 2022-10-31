@@ -9,6 +9,7 @@ category: ongoing
 
 The <b>secondary structure</b> plays an essential role for most non-coding RNA (ncRNA) classes, and they may have <b>critical roles in the function of ncRNAs</b>. 
 Identifying evolutionarily conserved structural RNAs requires the use of comparative genomics. 
+
 Therefore, by combining computational and experimental methods, we will work on an ambitious interdisciplinary project that attempts to <b>discover and study the evolution and novel functions of ncRNAs</b> in animals and plants, potentially impacting basic and clinical studies.
 
 
