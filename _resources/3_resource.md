@@ -2,9 +2,9 @@
 layout: page
 title: PhylomeDB
 description: The largest and most comprehensive public repository of gene phylogenies
-img: assets/img/phylomedb-300x232.jpg
+img: assets/img/phylomeDB.png
 redirect: http://phylomedb.org/
-importance: 3
-category: Gabaldon
+importance: 2
+category: Gabaldon Lab
 ---
 

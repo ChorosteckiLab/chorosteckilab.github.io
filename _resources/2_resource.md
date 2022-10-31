@@ -1,10 +1,10 @@
 ---
 layout: page
 title: MetaPhOrs
-description: A free and unique web-server providing phylogeny-based orthology and paralogy predictions
-img: assets/img/Logo_Metaphors.png
+description: A unique web-server providing phylogeny-based orthology and paralogy predictions
+img: assets/img/metaphors.png
 redirect: http://orthology.phylomedb.org/
-importance: 3
-category: Gabaldon
+importance: 1
+category: Gabaldon Lab
 ---
 

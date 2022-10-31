@@ -5,7 +5,7 @@ permalink: /resources/
 description: Web-based software resources of value to the biological community 
 nav: true
 nav_order: 4
-display_categories: [Palatnik, Gabaldon]
+display_categories: [Palatnik Lab, Gabaldon Lab]
 horizontal: false
 ---
 
