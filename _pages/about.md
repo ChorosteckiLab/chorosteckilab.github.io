@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Overview
+subtitle: Computational RNA Biology lab
 
 profile:
   align: right
