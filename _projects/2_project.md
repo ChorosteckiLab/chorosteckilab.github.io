@@ -1,24 +1,24 @@
 ---
 layout: page
 title: Evolution and functional roles of ncRNAs
-description: Evolution of structurally conserved non-coding RNAs across animal and plant kingdoms
+description: Evolution of structurally conserved ncRNAs across animal and plant kingdoms
 img: assets/img/UC02.png
 importance: 2
 category: ongoing
 ---
-Precise folding of RNA into complex structures is crucial for the RNA to perform complex biological functions such as those associated with translation, regulation of gene expression, and mRNA turnover. 
-Many sequences, including mRNAs, riboswitches and lncRNAs, are expected to fold into <b> various competing structures that can co-exist</b>. 
-Several methods have recently been developed to assess this structural diversity that allows the study of <b>alternative conformations of RNA</b> using experimental data. 
-In this project, we will investigate the <b>relationship between RNA structure and function</b>, considering the RNA structure dynamics.
+
+The </b>secondary structure</b> plays an essential role for most non-coding RNA (ncRNA) classes, and they may have <b>critical roles in the function of ncRNAs</b>. 
+Identifying evolutionarily conserved structural RNAs requires the use of comparative genomics. 
+Therefore, by combining computational and experimental methods, we will work on an ambitious interdisciplinary project that attempts to <b>discover and study the evolution and novel functions of ncRNAs</b> in animals and plants, potentially impacting basic and clinical studies.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="RNA secondary structure dynamics" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/UC02.png" title="Evolution and functional roles of ncRNAs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="caption">
-    This image can also have a caption. It's like magic.
+	Evolution of structurally conserved non-coding RNAs across animal and plant kingdoms
 </div>
-
 
