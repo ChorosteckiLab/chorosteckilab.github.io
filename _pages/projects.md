@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Overview of the projects
+description: Summary 
 nav: true
 nav_order: 2
 display_categories: [ongoing]
