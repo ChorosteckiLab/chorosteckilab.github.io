@@ -23,7 +23,7 @@ We are interested in:
 <ul>
   <li>Investigating the relationship between RNA structure and function, considering the RNA structure dynamics.</li>
   <li>Understanding the evolution of non-coding RNAs from different species.</li>
-  <li>Integrating multi-omics approaches for therapeutic targeting of non-coding RNAs in Cancer.</li>
+  <li>Integrating multi-omics approaches for study non-coding RNAs in cancer diagnosis and therapy.</li>
 </ul>
 
 

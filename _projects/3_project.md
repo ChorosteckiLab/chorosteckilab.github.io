@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ncRNAs in Cancer Diagnosis and Therapy
+title: ncRNAs in cancer diagnosis and therapy.
 description: Integrating multi-omics approaches for therapeutic targeting of ncRNAs in Cancer.
 img: assets/img/UC03.png
 importance: 3
