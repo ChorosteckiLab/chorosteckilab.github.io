@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RNA structure dynamics
+title: RNA secondary structure dynamics
 description: Investigating the relationship between RNA structure and function.
 img: assets/img/UC01.png
 importance: 1
@@ -16,7 +16,7 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
     layout: page
     title: project
-    description: Relationship between RNA structure and function, considering the RNA structure dynamics.
+    description: Investigating the relationship between RNA structure and function.
     img: /assets/img/UC01.png
     ---
 
