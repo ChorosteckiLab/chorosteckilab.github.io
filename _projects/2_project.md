@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Evolution and functions of ncRNAs
+title: Evolution and functional roles of ncRNAs
 description: Understanding the evolution and function of ncRNAs from different species.
 img: assets/img/UC01.png
 importance: 2
