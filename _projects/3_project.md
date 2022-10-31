@@ -7,10 +7,11 @@ importance: 3
 category: ongoing
 ---
 
-The <b>secondary structure</b> plays an essential role for most non-coding RNA (ncRNA) classes, and they may have <b>critical roles in the function of ncRNAs</b>. 
-Identifying evolutionarily conserved structural RNAs requires the use of comparative genomics. 
-Therefore, by combining computational and experimental methods, we will work on an ambitious interdisciplinary project that attempts to <b>discover and study the evolution and novel functions of ncRNAs</b> in animals and plants, potentially impacting basic and clinical studies.
+With the development of RNA structure determination assays such as SHAPE and nextPARS, it is possible to map the secondary structure of ncRNAs precisely. 
+In this regard, I’ve recently shown that the characterization of the structure of NORAD, a lncRNA dysregulated in different types of cancers, opens the door to designing novel therapeutic strategies in the fight against cancer. Furthermore, in recent work, we underline the immense potential of structure-altering mutations on the fine-tuning role of lncRNAs associated with colorectal cancer patients experiencing relapse after treatment.
+Therefore, a new type of RNA therapy can be envisaged based on targeting structural elements, which directly affect the conformation of an ncRNA and indirectly the functional interactions with molecules. 
 
+We will combine multi-omics data integration, computational approaches and clinical data applied to <b> RNA-based therapeutics for cancer </b> and also applied to improving <b>CAR T-cell therapies</b>.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
