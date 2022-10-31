@@ -251,7 +251,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  
+  sort_by: year
   order: descending
 
 # Filter out certain bibtex entry keywords used internally from the bib output
