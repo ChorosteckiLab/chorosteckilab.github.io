@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Non-coding RNAs evolution
+title: Evolution and functions ncRNAs
 description: Understanding the evolution and function of ncRNAs from different species.
 img: assets/img/UC01.png
 importance: 2

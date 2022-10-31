@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-The main aim of our lab is to understand RNA biology, by using computational strategies. By combining computational approaches, high-throughput structure probing techniques and molecular biology experiments, my lab is expected to create a wealth of original information by unravelling novel, unexpected functions for RNAs from different species.
+The main aim of the <b>Computational RNA Biology lab</b> is to understand RNA biology, by using computational strategies. By combining computational approaches, high-throughput structure probing techniques and molecular biology experiments, my lab is expected to create a wealth of original information by unravelling novel, unexpected functions for RNAs from different species.
 
 We are interested in: 
 <ul>
