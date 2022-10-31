@@ -5,7 +5,7 @@ permalink: /resources/
 description: Web-based software resources of value to the biological community 
 nav: true
 nav_order: 4
-display_categories: [Palatnik, Gabaldon, ongoing]
+display_categories: [Palatnik, Gabaldon]
 horizontal: false
 ---
 
@@ -25,14 +25,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for resource in sorted_resources -%}
-      {% include projects_horizontal.html %}
+      {% include resources_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for resource in sorted_resources -%}
-      {% include projects.html %}
+      {% include resources.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -46,14 +46,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for resource in sorted_resources -%}
-      {% include projects_horizontal.html %}
+      {% include resources_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for resource in sorted_resources -%}
-      {% include projects.html %}
+      {% include resources.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
