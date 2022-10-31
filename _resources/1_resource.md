@@ -1,9 +1,10 @@
 ---
 layout: page
-title: resource 1
-description: a project that redirects to another website
+title: ComTAR
+description: A web tool for predicting and characterizing conserved microRNA targets in plants
 img: assets/img/7.jpg
 redirect: http://rnabiology.ibr-conicet.gov.ar/comtar/
 importance: 3
 category: Palatnik
 ---
+
