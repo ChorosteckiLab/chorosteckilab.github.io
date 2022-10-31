@@ -10,11 +10,12 @@ horizontal: false
 ---
 
 <!-- pages/resources.md -->
-<div class="projects">
+<div class="resources">
 {%- if site.enable_resource_categories and page.display_categories %}
   <!-- Display categorized resources -->
   {%- for category in page.display_categories %}
   
+  <!-- Ommit category title -->
   <h2 class="category">{{ category }}</h2>
 
   {%- assign categorized_resources = site.resources | where: "category", category -%}
@@ -24,35 +25,35 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for resource in sorted_resources -%}
-      {% include projects_horizontal.html %}
+      {% include resources_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for resource in sorted_resources -%}
-      {% include projects.html %}
+      {% include resources.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
   {% endfor %}
 
 {%- else -%}
-<!-- Display projects without categories -->
+<!-- Display resources without categories -->
   {%- assign sorted_resources = site.resources | sort: "importance" -%}
   <!-- Generate cards for each resource -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
     {%- for resource in sorted_resources -%}
-      {% include projects_horizontal.html %}
+      {% include resources_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for resource in sorted_resources -%}
-      {% include projects.html %}
+      {% include resources.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
