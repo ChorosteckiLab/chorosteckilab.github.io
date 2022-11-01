@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 permalink: /resources/
-description: Web-based software resources of value to the biological community from Gabaldon Lab and Paltnik Lab.
+description: Web-based software resources of value to the biological community I contributed.
 nav: true
 nav_order: 4
 display_categories: [Gabaldon Lab, Palatnik Lab]
