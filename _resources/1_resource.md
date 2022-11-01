@@ -5,6 +5,6 @@ description: A web tool for predicting and characterizing conserved microRNA tar
 img: assets/img/comTAR.png
 redirect: http://rnabiology.ibr-conicet.gov.ar/comtar/
 importance: 4
-category: Palatnik Lab
+category: Gabaldon Lab
 ---
 

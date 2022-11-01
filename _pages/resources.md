@@ -16,7 +16,7 @@ horizontal: false
   {%- for category in page.display_categories %}
   
   <!-- Ommit category title -->
-  <h2 class="category">{{ category }}</h2>
+  <!-- h2 class="category">{{ category }}</h2-->
 
   {%- assign categorized_resources = site.resources | where: "category", category -%}
   {%- assign sorted_resources = categorized_resources | sort: "importance" %}
