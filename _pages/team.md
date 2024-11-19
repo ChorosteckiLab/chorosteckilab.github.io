@@ -12,6 +12,7 @@ nav_order: 3
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       {%- for member in site.team %}
+        {%- include team.html member=member %}
       <div class="col">
         <div class="card h-100 shadow-sm">
           <img src="{{ member.img | prepend: site.baseurl }}" class="card-img-top" alt="{{ member.name }}">
