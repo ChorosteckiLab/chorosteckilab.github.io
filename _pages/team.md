@@ -24,3 +24,8 @@ nav_order: 4
     {%- endfor %}
   </div>
 </div>
+
+
+<pre>
+{{ site.team | jsonify }}
+</pre>
