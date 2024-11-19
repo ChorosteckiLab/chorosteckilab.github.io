@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!-- _layouts/team.html -->
+
+<!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+
+          <article>
+            {{ content }}
+          </article>
+
+        </div>
+
+	<h1> Open positions</h1>
+	<p></p>
+        <div class="post">
+          <header class="post-header">
+            <h2 class="post-title">
+				PhD student  
+            {% if page.join_pdf %}
+				<a href="{{ page.join_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer">
+					<i class="fas fa-file-pdf"></i>
+				</a>{% endif %}
+            </h2>
+            <b>Date limit</b>: December 10th, 2022.
+          </header>
+        
+        </div>
+
