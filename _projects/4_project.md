@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nethod for RNA structure comparison.
+title: Method for RNA structure comparison.
 description: Sequence-agnostic method for RNA structure comparison in lncRNAs.
 img: assets/img/UC04.png
 importance: 3
