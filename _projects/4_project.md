@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ncRNAs in cancer diagnosis and therapy
+title: Sequence-agnostic method for RNA structure comparison in lncRNAs
 description: Sequence-agnostic method for RNA structure comparison in lncRNAs.
 img: assets/img/UC04.png
 importance: 3
@@ -18,12 +18,12 @@ Our approach will explore conserved lncRNA structures by integrating datasets fr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/UC03.png" title="Integrating multi-omics approaches for therapeutic targeting of ncRNAs in Cancer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/UC04.png" title="Sequence-agnostic method for RNA structure comparison in lncRNAs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="caption">
-	Targeting ncRNAs with structural element lockers (SELs). Considering an ensemble of co-existing structures to identify common structural elements and design a shared SEL.
+	X
 </div>
 
 
