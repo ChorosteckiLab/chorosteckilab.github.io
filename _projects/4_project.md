@@ -23,7 +23,7 @@ Our approach will explore conserved lncRNA structures by integrating datasets fr
 </div>
 
 <div class="caption">
-	X
+	Scheme of RNA-StruSiNet. Structural ensembles are inputs of the SNN, which encodes each structure into an embedding vector that captures the structural features of the RNA molecules. The t-SNE plot clusters RNA types based on their structural embeddings A tRNA is displayed
 </div>
 
 
