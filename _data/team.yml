@@ -1,0 +1,14 @@
+- name: John Doe
+  position: Principal Investigator
+  img: assets/img/john_doe.png
+  bio: "Leads the group with a focus on RNA structural biology."
+
+- name: Jane Smith
+  position: Postdoctoral Researcher
+  img: assets/img/jane_smith.png
+  bio: "Researching RNA-protein interactions and molecular dynamics."
+
+- name: Sarah Johnson
+  position: Graduate Student
+  img: assets/img/sarah_johnson.png
+  bio: "Focused on computational analysis of RNA folding mechanisms."
