@@ -16,7 +16,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    
+
+    - name: Install Bundler
+      run: gem install bundler
+
     - name: Reset Ruby Environment
       run: rm -rf vendor/bundle .bundle Gemfile.lock && bundle install --clean --path vendor/bundle
 
