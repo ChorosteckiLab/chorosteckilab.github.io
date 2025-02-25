@@ -2,7 +2,7 @@
 layout: page
 title: Team
 permalink: /team/
-description: Meet our research team!
+description: Meet our research team
 nav: true
 nav_order: 3
 ---
