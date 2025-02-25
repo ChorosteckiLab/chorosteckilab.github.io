@@ -16,15 +16,15 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+    
+    - name: Reset Ruby Environment
+      run: rm -rf vendor/bundle .bundle Gemfile.lock && bundle install --clean --path vendor/bundle
 
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-
-    - name: Reset Ruby Environment
-      run: rm -rf vendor/bundle .bundle Gemfile.lock && bundle install --clean
 
     - name: Install dependencies
       run: |
