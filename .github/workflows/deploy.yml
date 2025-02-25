@@ -16,14 +16,20 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-    - name: Install deps
+
+    - name: Reset Ruby Environment
+      run: rm -rf vendor/bundle .bundle Gemfile.lock && bundle install --clean
+
+    - name: Install dependencies
       run: |
         npm install -g mermaid.cli
+
     - name: Setup deploy options
       id: setup
       run: |
@@ -36,8 +42,9 @@ jobs:
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         fi
         echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT        
-    
+
     - name: Deploy website 
-      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+      run: |
+        yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
+                    --src ${{ steps.setup.outputs.SRC_BRANCH }} \
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
