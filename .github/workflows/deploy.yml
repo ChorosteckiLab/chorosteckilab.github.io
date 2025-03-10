@@ -25,6 +25,7 @@ jobs:
           bundler-cache: false
 
       - name: Install Bundler
+        run: gem update --system
         run: gem install bundler
 
       - name: Install dependencies
