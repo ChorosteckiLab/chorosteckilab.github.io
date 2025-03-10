@@ -24,11 +24,9 @@ jobs:
           ruby-version: '3.0.2'
           bundler-cache: false  # Disable Bundler caching to avoid potential issues
 
-      - name: Install Bundler
-        run: gem install bundler
-
       - name: Clean and Install dependencies
         run: |
+          gem install bundler
           bundle clean --force
           bundle install --path vendor/bundle
           npm install -g mermaid.cli
