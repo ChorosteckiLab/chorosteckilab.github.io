@@ -20,11 +20,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.0'  # Ensure this matches your Gemfile
-          bundler-version: '2.3.0'  # Specify the Bundler version from your Gemfile.lock
+          bundler: '2.3.0'  # Specify the Bundler version from your Gemfile.lock
           bundler-cache: false   # Disable automatic caching to implement manual caching
 
       - name: Cache Ruby Gems
-        uses: actions/cache@v3  # Updated to v3
+        uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-ruby-${{ hashFiles('**/Gemfile.lock') }}
