@@ -27,11 +27,12 @@ jobs:
       - name: Install Bundler
         run: gem install bundler
 
-      - name: Install dependencies
+      - name: Clean and Install dependencies
         run: |
-          bundle install --clean --path vendor/bundle
+          bundle clean --force
+          bundle install --path vendor/bundle
           npm install -g mermaid.cli
-          
+
       - name: Update gems
         run: bundle update
 
