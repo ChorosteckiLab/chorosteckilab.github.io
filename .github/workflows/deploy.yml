@@ -22,27 +22,33 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0.2'
-          bundler-cache: false
+          bundler-cache: false  # Disable Bundler caching to avoid potential issues
 
-      - name: Update gem
-        run: gem update --system
-        
       - name: Install Bundler
         run: gem install bundler
 
-            
-      - name: Install dependencies
+      - name: Ensure Clean Environment
+        run: |
+          rm -rf ./vendor/bundle
+          bundle clean --force
+
+      - name: Install Dependencies
         run: |
           bundle install --path vendor/bundle
           npm install -g mermaid.cli
 
-      - name: Verify Jekyll installation
+      - name: Ensure Correct Gem Versions
+        run: |
+          bundle exec gem list
+          bundle exec gem install uri -v '1.0.3'
+
+      - name: Verify Jekyll Installation
         run: bundle exec jekyll -v
 
-      - name: Build site
+      - name: Build Site
         run: bundle exec jekyll build
 
-      - name: Setup deploy options
+      - name: Setup Deploy Options
         id: setup
         run: |
           git config --global user.name "GitHub Action"
@@ -55,7 +61,7 @@ jobs:
           fi
           echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
 
-      - name: Deploy website 
+      - name: Deploy Website 
         run: |
           yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
                       --src ${{ steps.setup.outputs.SRC_BRANCH }} \
