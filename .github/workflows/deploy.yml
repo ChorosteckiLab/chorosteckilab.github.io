@@ -27,7 +27,7 @@ jobs:
       - name: Install Bundler
         run: gem install bundler
 
-      - name: Ensure Clean Environment
+      - name: Clean Environment
         run: |
           rm -rf ./vendor/bundle
           bundle clean --force
@@ -39,7 +39,6 @@ jobs:
 
       - name: Ensure Correct Gem Versions
         run: |
-          bundle exec gem list
           bundle exec gem install uri -v '1.0.3'
 
       - name: Verify Jekyll Installation
