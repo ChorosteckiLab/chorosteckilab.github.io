@@ -22,19 +22,18 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0.2'
-          bundler-cache: false  # Disable Bundler caching to avoid potential issues
+          bundler-cache: false
 
       - name: Install Bundler
         run: gem install bundler
 
-      - name: Clean and Install dependencies
+      - name: Install dependencies
         run: |
-          bundle clean --force
           bundle install --path vendor/bundle
           npm install -g mermaid.cli
 
-      - name: Update gems
-        run: bundle update
+      - name: Verify Jekyll installation
+        run: bundle exec jekyll -v
 
       - name: Build site
         run: bundle exec jekyll build
@@ -44,13 +43,13 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
+          if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then
             echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
             echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
-          elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
+          elif [[ ${GITHUB_REF} = refs/heads/* ]]; then
             echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
           fi
-          echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT        
+          echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
 
       - name: Deploy website 
         run: |
