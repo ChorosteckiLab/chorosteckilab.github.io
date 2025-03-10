@@ -24,10 +24,13 @@ jobs:
           ruby-version: '3.0.2'
           bundler-cache: false
 
-      - name: Install Bundler
+      - name: Update gem
         run: gem update --system
+        
+      - name: Install Bundler
         run: gem install bundler
 
+            
       - name: Install dependencies
         run: |
           bundle install --path vendor/bundle
