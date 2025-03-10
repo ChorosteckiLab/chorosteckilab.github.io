@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - master
-      - main
   pull_request:
     branches:
       - master
-      - main
 
 jobs:
   deploy:
@@ -23,10 +21,10 @@ jobs:
         with:
           ruby-version: '3.2.0'  # Ensure this matches your Gemfile
           bundler-version: '2.3.0'  # Specify the Bundler version from your Gemfile.lock
-          bundler-cache: true   # Enable Bundler caching
+          bundler-cache: false   # Disable automatic caching to implement manual caching
 
       - name: Cache Ruby Gems
-        uses: actions/cache@v2
+        uses: actions/cache@v3  # Updated to v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-ruby-${{ hashFiles('**/Gemfile.lock') }}
@@ -35,6 +33,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          gem install bundler
           bundle install
           npm install -g mermaid.cli
 
